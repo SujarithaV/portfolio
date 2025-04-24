@@ -67,7 +67,7 @@ function App() {
             <h1>Hi, I'm Sujaritha Vampu</h1>
             <h2 className="typing">
               <Typewriter
-                words={["Full Stack Developer", "Software Developer", "Python Developer"]}
+                words={["Full Stack Developer", "Software Developer", "Python Developer", "Data Analyst"]}
                 loop={false}
                 cursor
                 cursorStyle="|"
@@ -151,7 +151,7 @@ function App() {
         <h2>Skills</h2>
         <div className="skills-grid">
           {[
-            "Python", "Java", "JavaScript", "SQL","React.js", "Node.js", "Spring Boot", "MongoDB", "MySQL", "AWS", "Apache Kafka", "Spark", "Git", "Tableau" , "PowerBI", "HTML", "CSS", "PLM Teamcenter", "PLM Windchill", "Creo", "Solidworks", "CAD Integrations", "VS Code", "Microsoft Office"
+            "Python", "Java", "JavaScript", "SQL","React.js", "Node.js", "Spring Boot", "MongoDB", "MySQL", "AWS", "Apache Kafka", "Spark", "Git", "Tableau" , "PowerBI", "HTML", "CSS", "PLM Teamcenter", "PLM Windchill", "Creo", "Solidworks", "CAD Integrations", "VS Code", "Microsoft Office, SahrePoint"
           ].map((skill) => (
             <span key={skill} className="skill">
               {skill}
@@ -184,10 +184,10 @@ function App() {
 </div>
 
           <ul>
-            <li>Developed REST APIs and automation scripts in Python and Java to migrate data with 99% accuracy and reduced migration time by 40%.</li>
+            <li>Developed REST APIs and automation scripts in Python, SQL, and Java to migrate data with 99% accuracy and reduced migration time by 40%.</li>
             <li>Deployed scalable ETL pipelines using Node.js and Express.js to automate data processing and transformation.</li>
             <li>Integrated AWS services (S3, Lambda) with APIs to ensure high-availability cloud storage and 30% downtime reduction.</li>
-            <li>Built a React.js dashboard for monitoring migration status in real-time, cutting error resolution time by 50%.</li>
+            <li>Built interactive Tableau and React.js dashboards for monitoring migration status in real-time, cutting error resolution time by 50%.</li>
             <li>Designed and implemented multi-tier architectures (2-tier, 4-tier) for optimized frontend-backend communication.</li>
           </ul>
         </div>
@@ -199,11 +199,12 @@ function App() {
           <p><em>Sep 2020 – May 2022</em></p>
           </div>
           <ul>
-            <li>Automated backend workflows and ETL pipelines using Python and Java, reducing processing time by up to 90%.</li>
+            <li>Automated backend workflows and ETL pipelines using Python, SQL, and Java, reducing processing time by up to 90%.</li>
             <li>Built full-stack applications with React.js and Node.js to improve data accessibility and team collaboration.</li>
             <li>Designed microservices and managed PostgreSQL/MongoDB schemas to boost query performance by 50%.</li>
             <li>Led CI/CD pipeline creation for DevOps deployments, enabling zero-downtime releases for enterprise applications.</li>
             <li>Contributed to system upgrades for Teamcenter and Active Workspace, ensuring seamless user transitions.</li>
+            <li>Collaborated across teams via SharePoint, ensuring seamless documentation and version control for cross-functional projects.</li>
           </ul>
         </div>
       </section>
