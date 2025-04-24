@@ -58,7 +58,6 @@ function App() {
         <button className="toggle" onClick={toggleMode}>
           {darkMode ? "🌠" : "🌞"}
         </button>
-        
       </header>
 
       <div className="hero-wrapper">
