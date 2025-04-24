@@ -151,7 +151,7 @@ function App() {
         <h2>Skills</h2>
         <div className="skills-grid">
           {[
-            "Python", "Java", "JavaScript", "SQL","React.js", "Node.js", "Spring Boot", "MongoDB", "MySQL", "AWS", "Apache Kafka", "Spark", "Git", "Tableau" , "PowerBI", "HTML", "CSS", "PLM Teamcenter", "PLM Windchill", "Creo", "Solidworks", "CAD Integrations", "VS Code", "Microsoft Office, SahrePoint"
+            "Python", "Java", "JavaScript", "SQL","React.js", "Node.js", "Spring Boot", "MongoDB", "MySQL", "AWS", "Apache Kafka", "Spark", "Git", "Tableau" , "PowerBI", "HTML", "CSS", "PLM Teamcenter", "PLM Windchill", "Creo", "Solidworks", "CAD Integrations", "VS Code", "Microsoft Office", "SharePoint"
           ].map((skill) => (
             <span key={skill} className="skill">
               {skill}
